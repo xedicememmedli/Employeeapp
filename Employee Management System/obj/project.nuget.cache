@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Qthylevcmho=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\PC\\source\\repos\\Employee Management System\\Employee Management System\\Employee Management System.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\PC\\.nuget\\packages\\newtonsoft.json\\13.0.4\\newtonsoft.json.13.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}
