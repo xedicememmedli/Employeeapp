@@ -51,17 +51,25 @@ namespace EmployeeManagementSystem
 
          static void AddEmployeeFlow()
         {
-            Console.Write("ID: "); int id = int.Parse(Console.ReadLine());
-            Console.Write("Name: "); string name = Console.ReadLine();
-            Console.Write("Age: "); string? ageStr = Console.ReadLine();
+            Console.Write("ID: "); 
+             int id = int.Parse(Console.ReadLine());
+            Console.Write("Name: ");
+             string name = Console.ReadLine();
+            Console.Write("Age: "); 
+             string? ageStr = Console.ReadLine();
             int? age = string.IsNullOrEmpty(ageStr) ? null : int.Parse(ageStr);
-            Console.Write("Position (Junior/Middle/Senior/Manager): "); string posStr = Console.ReadLine();
+            Console.Write("Position (Junior/Middle/Senior/Manager): ");
+             string posStr = Console.ReadLine();
             Position? pos = string.IsNullOrEmpty(posStr) ? null : Enum.Parse<Position>(posStr);
-            Console.Write("Department: "); string dept = Console.ReadLine();
-            Console.Write("Salary: "); string salStr = Console.ReadLine();
+            Console.Write("Department: ");
+             string dept = Console.ReadLine();
+            Console.Write("Salary: "); 
+             string salStr = Console.ReadLine();
             decimal? salary = string.IsNullOrEmpty(salStr) ? null : decimal.Parse(salStr);
-            Console.Write("Office Number: "); string office = Console.ReadLine();
-            Console.Write("Floor: "); int floor = int.Parse(Console.ReadLine());
+            Console.Write("Office Number: ");
+             string office = Console.ReadLine();
+            Console.Write("Floor: ");
+             int floor = int.Parse(Console.ReadLine());
             Contact contact = new Contact(office, floor);
             DateTime hireDate = DateTime.Now;
 
