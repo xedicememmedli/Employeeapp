@@ -9,6 +9,7 @@ namespace EmployeeManagementSystem
     {
         static void Main()
         {
+            string path = "C:\\Users\\PC\\source\\repos\\Employee Management System\\Employee Management System\\Data\\employees.json";
             EmployeeService.LoadFromFile();
             bool exit = false;
 
